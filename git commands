@@ -1,0 +1,22 @@
+git init - inicjalizacja repozytorium
+
+git add . - dodajemy wszystkie pliki do repozytorium
+
+git status - sprawdzamy status plików w repozytorium
+
+git config --global user.email "mail@mail.com"
+
+git config --global user.name "name"
+
+git commit -m 'opis commitu' - tworzymy commita, lokalną paczkę z aktualną wersjhą projektu
+
+git branch -M main - ustawiamy główną gałąź
+
+git remote add origin git@github.com:Krzyman134/weatherApp.git1~ - ustawiamy nasze repozytorium
+git remote rm origin - usuń remote origin
+
+git fetch
+
+git push -u origin main - wypychamy pliki na gitagit 
+
+git push --force origin main
