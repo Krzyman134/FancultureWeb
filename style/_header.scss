@@ -1,0 +1,56 @@
+header{
+    padding: 15px;
+    padding-left: 23px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+
+    top: 0;
+    position: sticky;
+
+    border-bottom: 2px solid rgba(85, 20, 129, 0.486);
+}
+
+.logo{
+    width: 50px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+
+    letter-spacing: 5px;
+    font-size: 13px;
+    font-family: Light;
+    color: white;
+}
+
+.headerBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 60%;
+}
+
+.btn{
+    letter-spacing: 4px;
+    font-family: Light;
+
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.btn:hover{
+    color: rgb(185, 108, 236);
+}

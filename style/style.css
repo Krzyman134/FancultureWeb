@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Light;
+  src: url(/fonts/FutureLight.ttf);
+}
+
+header {
+  padding: 15px;
+  padding-left: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  border-bottom: 2px solid rgba(85, 20, 129, 0.486);
+}
+
+.logo {
+  width: 50px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  letter-spacing: 5px;
+  font-size: 13px;
+  font-family: Light;
+  color: white;
+}
+
+.headerBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 60%;
+}
+
+.btn {
+  letter-spacing: 4px;
+  font-family: Light;
+  border: 2px solid rgba(255, 0, 0, 0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.btn:hover {
+  color: #b96cec;
+}
+
+.firstPanel {
+  padding: 10%;
+  padding-bottom: 30%;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), to(black)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.322))), url(/images/backone.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, black), linear-gradient(rgba(0, 0, 0, 0.322)), url(/images/backone.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leftFirst {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.infoLogo {
+  width: 40%;
+}
+
+.rightFirst {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.secondPanel {
+  padding: 20%;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
