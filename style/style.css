@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Light;
-  src: url(/fonts/futurelight.ttf);
+  src: url("../fonts/futurelight.ttf");
 }
 
 header {
@@ -92,8 +92,8 @@ header {
   padding: 10%;
   padding-bottom: 30%;
   background-color: black;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), to(black)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/images/backone.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, black), linear-gradient(rgba(0, 0, 0, 0.5)), url("/images/backone.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), to(black)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../images/backone.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, black), linear-gradient(rgba(0, 0, 0, 0.5)), url("../images/backone.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -115,7 +115,7 @@ header {
 }
 
 .logoMain {
-  background-image: url("/images/logo.svg");
+  background-image: url("../images/logo.svg");
   width: 250px;
   height: 250px;
   background-repeat: no-repeat;
